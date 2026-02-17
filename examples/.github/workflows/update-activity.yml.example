@@ -1,0 +1,44 @@
+# Example: Update Recent Activity in README
+#
+# This workflow automatically updates your README with your recent GitHub activity
+# Shows your latest commits, PRs, issues, etc.
+#
+# To use:
+# 1. Copy to .github/workflows/update-activity.yml
+# 2. Add comments in your README.md where activity should appear:
+#    <!--START_SECTION:activity-->
+#    <!--END_SECTION:activity-->
+# 3. Commit and push
+
+name: Update Recent Activity
+
+on:
+  schedule:
+    # Runs every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  update-activity:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Update activity
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          # Maximum number of activities to show
+          MAX_LINES: 5
+          # Commit message
+          COMMIT_MSG: 'Updated recent activity'
+
+# This will show activities like:
+# - ⬆️ Pushed 2 commits to DenWin/repo-name
+# - ❗️ Opened issue #42 in DenWin/repo-name
+# - 🎉 Merged PR #21 in DenWin/repo-name
+# - ⭐ Starred username/repo-name
+# - 🗣 Commented on #15 in DenWin/repo-name

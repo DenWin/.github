@@ -1,0 +1,98 @@
+# GitHub Sponsors / Funding Configuration Example
+
+# FUNDING.yml
+# 
+# This file enables the "Sponsor" button on your GitHub profile and repositories.
+# Place this file at: .github/FUNDING.yml
+#
+# Uncomment and add your accounts for the platforms you use:
+
+# GitHub Sponsors
+# github: [DenWin]  # Replace with your GitHub username
+
+# Open Collective
+# open_collective: your-collective-name
+
+# Ko-fi
+# ko_fi: your-kofi-name
+
+# Tidelift
+# tidelift: npm/package-name
+
+# Community Bridge
+# community_bridge: project-name
+
+# Liberapay
+# liberapay: your-liberapay-username
+
+# IssueHunt
+# issuehunt: your-issuehunt-username
+
+# Otechie
+# otechie: your-otechie-username
+
+# LFX Mentorship (formerly CommunityBridge)
+# lfx_crowdfunding: project-name
+
+# Buy Me a Coffee
+# custom: ['https://www.buymeacoffee.com/yourname']
+
+# Patreon
+# patreon: your-patreon-username
+
+# Custom URLs (you can have multiple)
+# custom: ['https://www.paypal.me/yourname', 'https://yourwebsite.com/donate']
+
+---
+
+## 📝 Usage Instructions
+
+1. **Choose Your Platform(s)**
+   - Decide which sponsorship platform(s) you want to use
+   - You can enable multiple platforms simultaneously
+
+2. **Set Up Your Account**
+   - Create accounts on your chosen platform(s)
+   - Configure your sponsorship tiers and goals
+
+3. **Configure FUNDING.yml**
+   - Copy this file to `.github/FUNDING.yml` in your repository
+   - Uncomment the lines for your platform(s)
+   - Replace placeholder values with your actual usernames/URLs
+
+4. **Commit and Push**
+   - The "Sponsor" button will appear on your profile within a few minutes
+
+## 💡 Best Practices
+
+- **Be Transparent**: Clearly state what sponsorships support (e.g., open source work, content creation)
+- **Set Realistic Tiers**: Offer meaningful rewards at different sponsorship levels
+- **Show Gratitude**: Acknowledge your sponsors in your projects
+- **Update Regularly**: Keep your goals and tiers current
+
+## 🎯 When to Use
+
+Consider adding sponsorship options if you:
+- Maintain popular open source projects
+- Create technical content or tutorials
+- Provide free tools or services to the community
+- Want to dedicate more time to open source work
+
+## ⚠️ Professional Context
+
+Given your role at Avanade Deutschland GmbH:
+- Ensure sponsorship doesn't conflict with employment agreements
+- Consider whether sponsorship aligns with your professional brand
+- Focus on knowledge sharing rather than financial gain
+- Use it to support open source contributions, if applicable
+
+---
+
+**Example for Professional Developer Profile:**
+
+```yaml
+# github: DenWin
+# custom: ['https://yourwebsite.com/contact']
+```
+
+This minimal setup shows you're open to sponsorship but keeps it professional.

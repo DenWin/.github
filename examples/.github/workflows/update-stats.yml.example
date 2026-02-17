@@ -1,0 +1,55 @@
+# Example: Profile README Statistics Update
+#
+# This workflow keeps your README statistics fresh by rebuilding the page
+# periodically. Useful if you're using external stat services that cache.
+#
+# To use:
+# 1. Copy to .github/workflows/update-stats.yml
+# 2. The workflow will automatically refresh stat badges
+
+name: Refresh README Statistics
+
+on:
+  schedule:
+    # Runs once daily at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Allows manual trigger
+  push:
+    branches:
+      - main
+    paths:
+      - 'README.md'
+
+jobs:
+  refresh-stats:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Trigger README rebuild
+        run: |
+          # This empty commit triggers services to refresh cached stats
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Only commit if there are actual changes or we want to force refresh
+          if git diff --quiet; then
+            echo "No changes detected, creating empty commit to refresh stats"
+            git commit --allow-empty -m "chore: refresh README stats [skip ci]"
+            git push
+          fi
+
+      - name: Purge jsdelivr cache
+        run: |
+          # This purges the jsdelivr CDN cache for your profile
+          curl -X POST "https://purge.jsdelivr.net/gh/${{ github.repository_owner }}/${{ github.repository_owner }}/README.md"
+        continue-on-error: true
+
+# Note: This is particularly useful if you use stat services like:
+# - github-readme-stats.vercel.app
+# - github-readme-streak-stats.herokuapp.com
+# These services cache results, and periodic updates keep them fresh
