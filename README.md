@@ -18,35 +18,35 @@ With three decades in the industry, I've witnessed and adapted to the evolution 
 ### Core Technologies
 
 <p align="left">
-<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server"/>
-<img src="https://img.shields.io/badge/T--SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="T-SQL"/>
+<img src="https://img.shields.io/badge/AI-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI"/>
 <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#"/>
 <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET"/>
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server"/>
+<img src="https://img.shields.io/badge/T--SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="T-SQL"/>
 <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
 <img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure"/>
-<img src="https://img.shields.io/badge/AI-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI"/>
 </p>
 
-- **T-SQL & SQL Server** 🗄️ - Deep expertise in database design, optimization, and performance tuning
-- **C#** 💻 - Building enterprise applications with .NET ecosystem
-- **Java** ☕ - Cross-platform application development
-- **Infrastructure as Code** 🏗️ - Automating cloud infrastructure deployment and management
-- **AI Agency** 🤖 - Leveraging AI technologies for intelligent automation and decision-making
+- **AI & Automation** 🤖 - Applying AI to improve workflows, decision-making, and delivery
+- **Backend Engineering** 💻 - Building enterprise applications with C#, .NET, and Java
+- **Database Engineering** 🗄️ - Deep expertise in SQL Server, T-SQL, optimization, and performance tuning
+- **Infrastructure as Code** 🏗️ - Automating cloud infrastructure deployment and management with Terraform and Azure
 
 ### What I Do
-- 🔧 Design and implement scalable database solutions
-- ☁️ Build cloud-native applications and infrastructure
 - 🤖 Develop AI-powered automation solutions
+- 💻 Build reliable backend and cloud-native applications
+- 🔧 Design and optimize scalable database solutions
+- ☁️ Automate infrastructure delivery and operations
 - 📊 Optimize system performance and architecture
 - 🎯 Mentor teams on best practices and modern development patterns
 
 ## 💼 Professional Experience
 
 **Avanade Deutschland GmbH**
-- Contributing to enterprise digital transformation initiatives
-- Implementing modern cloud solutions and AI integrations
-- Bridging legacy systems with cutting-edge technologies
+- Delivering AI, backend, database, and cloud solutions for enterprise transformation
+- Implementing modern platforms that connect legacy systems with current architecture
+- Supporting teams with practical engineering standards and modernization efforts
 
 ## 🌱 Continuous Learning
 
