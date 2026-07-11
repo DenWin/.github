@@ -56,6 +56,12 @@ After 30 years in technology, I remain passionate about:
 - DevOps and automation best practices
 - Sharing knowledge with the developer community
 
+## 🔬 Featured Work
+
+[![ai-lab](https://github-readme-stats.vercel.app/api/pin/?username=DenWin&repo=ai-lab&theme=default&hide_border=true)](https://github.com/DenWin/ai-lab)
+
+**[ai-lab](https://github.com/DenWin/ai-lab)** — My central repository for AI and software development work. Source of truth for AI-assisted workflow configuration, shared skills, coding policies, and multi-harness support artifacts across Claude, Copilot, and Codex.
+
 ## 📫 Let's Connect
 
 Feel free to reach out for collaboration, knowledge sharing, or just a chat about technology!
